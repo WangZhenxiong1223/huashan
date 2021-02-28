@@ -13,3 +13,6 @@ git config --global user.email xxxx
 
 ###添加到暂存区
 git add flie/txt
+
+###提交
+git commit XXX
