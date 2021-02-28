@@ -1,0 +1,15 @@
+mkdir xxx			#创建文件夹
+
+
+###########Git 命令
+
+###设置仅在当前仓库有效的账号
+git config user.name xxxx
+git config user.email xxxx
+
+###登录当前操作系统的用户范围
+git config --global user.name xxxx
+git config --global user.email xxxx	
+
+###添加到暂存区
+git add flie/txt
