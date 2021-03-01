@@ -41,3 +41,32 @@ git diff [filename] 		#将工作区中的文件和暂存区进行比较
 git diff HEAD [filename]	#将工作区中的文件和本地库历史记录比较
 
 git diff HEAD		#不带文件名将比较当前工作区所有文件
+
+
+###查看分支###
+
+git branch -v
+
+####创建分支######
+git branch xxxxx
+
+####切换分支####
+git checkout xxx
+
+######合并分支#########
+
+git merge xxxx
+
+#####本地库添加远程库别名
+git remote add 别名 地址
+
+####提交到远程库##
+
+git push 别名 分支名
+
+#####从远处库下载
+
+git clone 地址
+
+
+
