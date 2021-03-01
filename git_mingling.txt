@@ -1,5 +1,6 @@
 mkdir xxx			#创建文件夹
 
+cat filename     		#查看文件内容
 
 ###########Git 命令
 
@@ -9,10 +10,34 @@ git config user.email xxxx
 
 ###登录当前操作系统的用户范围
 git config --global user.name xxxx
-git config --global user.email xxxx	
+git config --global user.email xxxx
+
+###查看状态
+git status
+
+##查看历史版本
+git log 
+	--pretty=oneline / --oneline
+
+git reflog		
+
+
+
 
 ###添加到暂存区
 git add flie/txt
 
 ###提交
 git commit XXX
+
+git commit -m "message" [file name]
+
+###历史版本选择
+git reset --hard [局部索引值]
+
+###比较
+git diff [filename] 		#将工作区中的文件和暂存区进行比较
+
+git diff HEAD [filename]	#将工作区中的文件和本地库历史记录比较
+
+git diff HEAD		#不带文件名将比较当前工作区所有文件
